@@ -3935,13 +3935,15 @@ body.is-preload {
 .org-logos {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 2em;
 }
 
 .org-logos .org-logo {
-    margin: 1em;
+    max-width: 100px;
     height: auto;
+    margin: 1em;
 }
 
 .organizer-photo {
