@@ -17,7 +17,7 @@
 							<li><a href="#intro">Welcome</a></li>
 							<li><a href="#one">About the School</a></li>
 							<li><a href="#two">Program Highlights</a></li>
-							<li><a href="#three">Registration</a></li>
+							<li><a href="#three">Application</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -47,7 +47,7 @@
 									<h2>About the Summer School</h2>
 									<p>The 4th edition of our PhD summer school series focuses on decarbonisation investments under uncertainty. Organized by DIW Berlin, TU Berlin, and Université Libre de Bruxelles, in collaboration with other leading European institutions.</p>
 									<ul class="actions">
-										<li><a href="about.html" class="button">Learn more</a></li>
+										<li><a href="about.html" class="button">MORE ABOUT THIS YEAR'S SCHOOL</a></li>
 									</ul>
 								</div>
 							</div>
@@ -116,7 +116,7 @@
 								</section>
 							</div>
 							<ul class="actions">
-								<li><a href="program.html" class="button">Full Program Details</a></li>
+								<li><a href="about.html" class="button">MORE ABOUT THIS YEAR'S SCHOOL</a></li>
 							</ul>
 						</div>
 					</section>
@@ -124,30 +124,20 @@
 				<!-- Three -->
 					<section id="three" class="wrapper style1 fade-up">
 						<div class="inner">
-							<h2>Registration</h2>
+							<h2>Application</h2>
 							<p>Join us for the 2025 Summer School on "Decarbonisation Investment under Uncertainty". Applications are now open for early-stage Economics PhD students interested in energy and climate policy instruments.</p>
+							<p><strong>Application Deadline: April 1, 2025</strong></p>
+							<p>Limited spots available. Acceptance not guaranteed.</p>
+							<h3>Application Requirements:</h3>
+							<ul>
+								<li>Cover Letter</li>
+								<li>Letter of support from advisor</li>
+								<li>300-word description of your research interests</li>
+							</ul>
+							<ul class="actions">
+								<li><a href="https://forms.office.com/Pages/ShareFormPage.aspx?id=nJwqRqYt-0uzGA-DBD_km0ukZLpg6ItNoXePoWWxrXxUQlRRRTFLRDlQQ1BDNDBJVTE1VVFLSFM0Ni4u&sharetoken=Efx6Xw9wfBfHM9Emxc0m" class="button" target="_blank">Apply Now</a></li>
+							</ul>
 							<div class="split style1">
-								<section>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="name">Name</label>
-												<input type="text" name="name" id="name" />
-											</div>
-											<div class="field half">
-												<label for="email">Email</label>
-												<input type="text" name="email" id="email" />
-											</div>
-											<div class="field">
-												<label for="message">Message</label>
-												<textarea name="message" id="message" rows="5"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><a href="" class="button submit">Send Message</a></li>
-										</ul>
-									</form>
-								</section>
 								<section>
 									<ul class="contact">
 										<li>
@@ -158,20 +148,13 @@
 										</li>
 										<li>
 											<h3>Email</h3>
-											<a href="#">summerschool@diw.de</a>
+											<a href="#">climatepolicysummerschool@diw.de</a>
 										</li>
-										<li>
-											<h3>Phone</h3>
-											<span>+49 30 89789 0</span>
-										</li>
-										<li>
-											<h3>Social</h3>
-											<ul class="icons">
-												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-												<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-											</ul>
-										</li>
+									</ul>
+								</section>
+								<section>
+									<ul class="actions">
+										<li><a href="#" class="button" onclick="shareSchool()"><i class="fas fa-share-alt"></i> Share this Summer School</a></li>
 									</ul>
 								</section>
 							</div>
@@ -197,6 +180,20 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+			function shareSchool() {
+				if (navigator.share) {
+					navigator.share({
+						title: 'Summer School 2025: Decarbonisation Investment under Uncertainty',
+						text: 'Join us for the 4th edition of our PhD summer school series focusing on decarbonisation investments under uncertainty.',
+						url: window.location.href
+					}).then(() => console.log('Successful share'))
+					.catch((error) => console.log('Error sharing', error));
+				} else {
+					alert('Share feature is not supported on this browser. Please copy the URL and share manually.');
+				}
+			}
+			</script>
 
 	</body>
 </html>
