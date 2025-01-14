@@ -3934,8 +3934,6 @@ body.is-preload {
 
 .org-logos {
     display: flex;
-    width: 100px;
-    height: auto;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-bottom: 2em;
@@ -3943,6 +3941,8 @@ body.is-preload {
 
 .org-logos .org-logo {
     margin: 1em;
+	width: 100px;
+    height: auto;
 }
 
 .organizer-photo {
