@@ -3243,10 +3243,10 @@ body {
 		    background-color: #34495e;
 		}
 		.wrapper.style2 {
-		    background-color: #3498db;
+		    background-color: #3d5871;
 		}
 		.wrapper.style2-alt {
-		    background-color: #2980b9;
+		    background-color: #34495e;
 		}
 		.wrapper.style3 {
 		    background-color: #2c3e50;
@@ -3757,10 +3757,10 @@ body {
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #2c3e50, #34495e);
-				background-image: -webkit-linear-gradient(to right, #2c3e50, #34495e);
-				background-image: -ms-linear-gradient(to right, #2c3e50, #34495e);
-				background-image: linear-gradient(to right, #2c3e50, #34495e);
+				background-image: -moz-linear-gradient(to right, #2c3e50, #3d5871);
+				background-image: -webkit-linear-gradient(to right, #2c3e50, #3d5871);
+				background-image: -ms-linear-gradient(to right, #2c3e50, #3d5871);
+				background-image: linear-gradient(to right, #2c3e50, #3d5871);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
