@@ -3887,6 +3887,30 @@ body.is-preload {
     flex: 1;
 }
 
+/* Previous Schools */
+
+.school {
+    margin-bottom: 2em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.school:last-child {
+    border-bottom: none;
+}
+
+.school-logo {
+    float: left;
+    margin-right: 1em;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.school::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 
 
