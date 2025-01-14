@@ -3887,6 +3887,7 @@ body.is-preload {
     flex: 1;
 }
 
+
 /* Previous Schools */
 
 .school {
@@ -3912,6 +3913,35 @@ body.is-preload {
     clear: both;
 }
 
+
+/* ORGANIZERS */
+
+.organizer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.org-logo {
+    width: 100px;
+    height: auto;
+    margin-right: 1em;
+}
+
+.organizer-info {
+    flex: 1;
+}
+
+.org-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 2em;
+}
+
+.org-logos .org-logo {
+    margin: 1em;
+}
 
 
 /* Intro */
