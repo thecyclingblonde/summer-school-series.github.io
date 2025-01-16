@@ -3956,6 +3956,24 @@ body.is-preload {
 
 
 
+/* FOOTER */
+
+.footer-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 1em;
+}
+
+.footer-logo {
+    height: 40px;
+    margin: 0.5em;
+    filter: grayscale(100%) brightness(0) invert(1);
+}
+
+
+
 /* Intro */
 
 	#intro {
