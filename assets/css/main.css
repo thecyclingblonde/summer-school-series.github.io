@@ -3887,6 +3887,30 @@ body.is-preload {
     flex: 1;
 }
 
+.learn-more-link {
+    display: inline-block;
+    color: #3498db;
+    text-decoration: underline;
+    padding: 0.5em 0;
+    margin-top: 0.5em;
+    font-weight: bold;
+}
+
+.learn-more-link:hover {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+.learn-more-link::after {
+    content: " →";
+    transition: margin-left 0.2s;
+}
+
+.learn-more-link:hover::after {
+    margin-left: 5px;
+}
+
+
 
 /* Previous Schools */
 
