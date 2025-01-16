@@ -3960,7 +3960,7 @@ body.is-preload {
 
 .footer-logos {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;  /* or whatever alignment the text uses */
     align-items: center;
     flex-wrap: wrap;
     margin-top: 1em;
@@ -3969,7 +3969,6 @@ body.is-preload {
 .footer-logo {
     height: 40px;
     margin: 0.5em;
-    filter: grayscale(100%) brightness(0) invert(1);
 }
 
 
