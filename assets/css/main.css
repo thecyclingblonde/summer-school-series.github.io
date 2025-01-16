@@ -3964,12 +3964,22 @@ body.is-preload {
     align-items: center;
     flex-wrap: wrap;
     margin-top: 1em;
+    gap: 2em;
 }
 
 .footer-logo {
     height: 40px;
-    margin: 0.5em;
+    width: auto;
 }
+
+.footer-logo[alt="DIW Berlin"] {
+    height: 40px;
+}
+
+.footer-logo:not([alt="DIW Berlin"]) {
+    height: 50px;
+}
+
 
 
 
